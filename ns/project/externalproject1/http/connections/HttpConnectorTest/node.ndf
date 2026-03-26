@@ -8,7 +8,7 @@
   <value name="is_public">false</value>
   <value name="assetId">ExternalProject1Project.project.externalproject1.http.connections:HttpConnectorTest</value>
   <value name="connectionName">HttpConnectorTest</value>
-  <value name="auth">bearer</value>
+  <value name="auth">basic</value>
   <value name="checkCRL">true</value>
   <value name="cipherSuites"></value>
   <value name="connectTimeout">300000</value>
@@ -23,7 +23,7 @@
   <value name="timeout">300000</value>
   <value name="token"></value>
   <value name="trustStore"></value>
-  <value name="url">https://dev2405634.a-vir-c2.int.ipaas.dev.automation.ibm.com/</value>
-  <value name="user"></value>
+  <value name="url">https://awsusprod.container.webmethodscloud.com/integration/service/Cldp1015a/IS1/invoke/regexissue:regex</value>
+  <value name="user">cldp</value>
   <value name="updateRSD">true</value>
 </Values>
