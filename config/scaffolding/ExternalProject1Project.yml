@@ -12,11 +12,23 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
+- serviceName: project.externalproject1.http.connections:TestHttpConnecto
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
 - serviceName: project.externalproject1.integrations:DAF
   packages:
   - name: ExternalProject1Project
     version: "1.0"
 - serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.826
+- serviceName: project.externalproject1.integrations:HttpsConnector
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: pub.client:http
   packages:
   - name: WmPublic
     version: 12.1.0.0.826
