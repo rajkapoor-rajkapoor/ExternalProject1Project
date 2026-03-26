@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Invoke predefined:smtpconnector" TIMEOUT="" SERVICE="pub.client:smtp" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/Untitled;1;0" TO="/attachments;2;1/content;3;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionAlias;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.externalproject1.smtp.connections:TestSMTPConnection</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/to;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">Rajkapoor.rajkapoor@ibm.com</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/subject;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">Test Attached</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/body;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">Validate attached </value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/attachments;2;1/contenttype;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">application/pdf</value>
+</Values>
+</DATA>
+</MAPSET>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/attachments;2;1/filename;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">TestData.pdf</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+</MAP>
+</INVOKE>
+</FLOW>
