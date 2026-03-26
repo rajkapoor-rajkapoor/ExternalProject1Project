@@ -25,4 +25,5 @@
   <value name="trustStore">CLDPStore_Truststore</value>
   <value name="url">https://awseuprod02.container.webmethodscloud.de:8443/integration/service/Cldp1011/IS1/invoke/regexissue:regex</value>
   <value name="user">cldp</value>
+  <value name="updateRSD">true</value>
 </Values>
