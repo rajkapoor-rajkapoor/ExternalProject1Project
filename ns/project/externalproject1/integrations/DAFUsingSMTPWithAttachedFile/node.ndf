@@ -62,9 +62,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="createdDate">1774517486996</value>
-    <value name="lastModifiedDate">1774517486996</value>
+    <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">1774517836682</value>
     <value name="displayName">DAFUsingSMTPWithAttachedFile</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
