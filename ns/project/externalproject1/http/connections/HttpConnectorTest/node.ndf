@@ -19,10 +19,11 @@
   <value name="keystoreAlias"></value>
   <value name="maxKeepAliveConnections">0</value>
   <value name="newSession">yes</value>
-  <value name="pass"></value>
+  <value name="pass">wm.is.admin.ExternalProject1Project.project.externalproject1.http.connections:HttpConnectorTest.pass</value>
   <value name="timeout">300000</value>
   <value name="token"></value>
   <value name="trustStore"></value>
   <value name="url">https://dev2405634.a-vir-c2.int.ipaas.dev.automation.ibm.com/</value>
   <value name="user"></value>
+  <value name="updateRSD">true</value>
 </Values>
