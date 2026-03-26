@@ -8,11 +8,7 @@ packages:
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
 services:
-- serviceName: project.externalproject1.http.connections:HttpConnectorTest
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.http.connections:TestHttpConnecto
+- serviceName: project.externalproject1.http.connections:HttoConnectorUsingCert
   packages:
   - name: ExternalProject1Project
     version: "1.0"
@@ -21,6 +17,14 @@ services:
   - name: ExternalProject1Project
     version: "1.0"
 - serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.826
+- serviceName: project.externalproject1.integrations:DAFUsingSMTPWithAttachedFile
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: pub.client:smtp
   packages:
   - name: WmPublic
     version: 12.1.0.0.826
@@ -40,7 +44,7 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
-- serviceName: project.externalproject1.smtp.connections:TestSMTPConnection
+- serviceName: project.externalproject1.integrations:Test
   packages:
   - name: ExternalProject1Project
     version: "1.0"
