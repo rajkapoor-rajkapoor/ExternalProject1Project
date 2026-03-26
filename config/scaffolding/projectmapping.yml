@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: ExternalProject1Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Test
+    type: workflow
+    uid: flfada7220a6224086b78c7c9f923b47d4
+    stepId: a0
+    reference: project.externalproject1.integrations:HttpsConnector
