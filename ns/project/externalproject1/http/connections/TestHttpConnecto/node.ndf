@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">httpAccount</value>
+  <value name="node_nsName">project.externalproject1.http.connections:TestHttpConnecto</value>
+  <value name="node_pkg">ExternalProject1Project</value>
+  <value name="is_public">false</value>
+  <value name="assetId">ExternalProject1Project.project.externalproject1.http.connections:TestHttpConnecto</value>
+  <value name="connectionName">TestHttpConnecto</value>
+  <value name="auth">none</value>
+  <value name="checkCRL">true</value>
+  <value name="cipherSuites"></value>
+  <value name="connectTimeout">300000</value>
+  <value name="followRedirect">yes</value>
+  <value name="hostNameVerification">true</value>
+  <value name="keepAliveTimeout">180</value>
+  <value name="keyAlias">awseuprod02.container.webmethodscloud.de</value>
+  <value name="keystoreAlias">CLDPStore_Keystore</value>
+  <value name="maxKeepAliveConnections">5</value>
+  <value name="newSession">yes</value>
+  <value name="pass"></value>
+  <value name="timeout">300000</value>
+  <value name="token"></value>
+  <value name="trustStore">CLDPStore_Truststore</value>
+  <value name="url">https://awseuprod02.container.webmethodscloud.de:8443/integration/service/Cldp1011/IS1/invoke/regexissue:regex</value>
+  <value name="user"></value>
+</Values>
