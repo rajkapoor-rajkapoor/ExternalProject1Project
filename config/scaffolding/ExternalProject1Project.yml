@@ -24,7 +24,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.826
-- serviceName: project.externalproject1.integrations:HttpsConnector
+- serviceName: project.externalproject1.integrations:HttpUsingCert
   packages:
   - name: ExternalProject1Project
     version: "1.0"
@@ -32,3 +32,11 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.826
+- serviceName: project.externalproject1.integrations:HttpsConnector
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.integrations:HttpsConnector8
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
