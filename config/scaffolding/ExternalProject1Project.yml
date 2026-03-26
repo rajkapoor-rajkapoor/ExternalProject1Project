@@ -40,3 +40,7 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
+- serviceName: project.externalproject1.smtp.connections:TestSMTPConnection
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
