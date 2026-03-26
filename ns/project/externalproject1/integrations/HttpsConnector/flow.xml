@@ -527,7 +527,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">https://awsusprod.container.webmethodscloud.com/integration/service/Cldp1015a/IS1/invoke/regexissue:regex</value>
+  <value name="xml">https://dev2405634.a-vir-c2.int.ipaas.dev.automation.ibm.com/integration/rest/external/integration/run/development/fl0b9d57496e934884a4af044ff53d72f9/OauthToken</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -545,16 +545,16 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Basic</value>
+  <value name="xml">Bearer</value>
 </Values>
 </DATA>
 </MAPSET>
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/auth;2;0/user;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/auth;2;0/token;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">cldp</value>
+  <value name="xml">57603c261d9b42d6ab1aad2c09e8eb2e14cbc82ade4f4a7095b9ee09303f823b</value>
 </Values>
 </DATA>
 </MAPSET>
