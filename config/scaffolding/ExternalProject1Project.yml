@@ -7,11 +7,6 @@ packages:
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
-- name: IC_OriginPackageVariable
-  gitServerName: rajka
-  gitUrl: https://github.com/rajkapoor-rajkapoor
-  gitUsername: rajkapoor-rajkapoor
-  gitBranch: main
 services:
 - serviceName: project.externalproject1.integrations:DAF
   packages:
