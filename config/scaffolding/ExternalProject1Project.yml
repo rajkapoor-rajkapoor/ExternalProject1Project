@@ -7,11 +7,12 @@ packages:
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
+- name: IC_OriginPackageVariable
+  gitServerName: rajka
+  gitUrl: https://github.com/rajkapoor-rajkapoor
+  gitUsername: rajkapoor-rajkapoor
+  gitBranch: main
 services:
-- serviceName: project.externalproject1.http.connections:HttoConnectorUsingCert
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
 - serviceName: project.externalproject1.integrations:DAF
   packages:
   - name: ExternalProject1Project
@@ -45,6 +46,10 @@ services:
   - name: ExternalProject1Project
     version: "1.0"
 - serviceName: project.externalproject1.integrations:Test
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.integrations:httpwithCert
   packages:
   - name: ExternalProject1Project
     version: "1.0"
