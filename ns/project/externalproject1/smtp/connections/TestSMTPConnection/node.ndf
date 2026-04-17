@@ -15,7 +15,8 @@
   <value name="authType">basic</value>
   <value name="user">AKIA5FVSH34F4MDWGBJW</value>
   <value name="pass">project.externalproject1.smtp.connections.TestSMTPConnection.pass</value>
-  <value name="token"></value>
+  <null name="token"/>
   <value name="transportLayerSecurity">explicit</value>
-  <value name="truststoreAlias"></value>
+  <null name="truststoreAlias"/>
+  <value name="updateRSD">true</value>
 </Values>
