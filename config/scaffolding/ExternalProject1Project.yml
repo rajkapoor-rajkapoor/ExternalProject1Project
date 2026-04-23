@@ -15,7 +15,7 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 12.1.0.0.826
+    version: 12.1.0.0.832
 - serviceName: project.externalproject1.integrations:DAFUsingSMTPWithAttachedFile
   packages:
   - name: ExternalProject1Project
@@ -23,7 +23,7 @@ services:
 - serviceName: pub.client:smtp
   packages:
   - name: WmPublic
-    version: 12.1.0.0.826
+    version: 12.1.0.0.832
 - serviceName: project.externalproject1.integrations:HttpUsingCert
   packages:
   - name: ExternalProject1Project
@@ -31,7 +31,7 @@ services:
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
-    version: 12.1.0.0.826
+    version: 12.1.0.0.832
 - serviceName: project.externalproject1.integrations:HttpsConnector
   packages:
   - name: ExternalProject1Project
@@ -48,3 +48,30 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetCitiesByCountry
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: pub.client:soapClient
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.832
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetWeather
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.responseServices:GlobalWeatherSoap_GetCitiesByCountry_Response
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.responseServices:GlobalWeatherSoap_GetWeather_Response
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.responseServices:genericFault_Response
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: false
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
