@@ -48,7 +48,11 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetCitiesByCountry
+- serviceName: project.externalproject1.integrations:test
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetWeather
   packages:
   - name: ExternalProject1Project
     version: "1.0"
@@ -56,7 +60,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.832
-- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetWeather
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetCitiesByCountry
   packages:
   - name: ExternalProject1Project
     version: "1.0"
