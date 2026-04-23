@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">soap</value>
+  <value name="node_nsName">project.externalproject1.soap.connections:qwerty</value>
+  <value name="node_pkg">ExternalProject1Project</value>
+  <value name="is_public">false</value>
+  <value name="assetId">ExternalProject1Project.project.externalproject1.soap.connections:qwerty</value>
+  <value name="connectionName">qwerty</value>
+  <value name="description"></value>
+  <value name="connectorNSName">project.externalproject1.soap.connectors:TestSOpa</value>
+  <value name="port">GlobalWeatherSoap12</value>
+  <value name="url">https://customqaawsus.acmeco.cloud/integration/ws/v2/fl76fc18d154eecf313e7a33/TestGlobalWSDL/GlobalWeatherSoap</value>
+  <value name="timeout"></value>
+  <value name="transportType"></value>
+  <value name="transportUser"></value>
+  <value name="transportPass"></value>
+  <value name="transportServerCertsKeystoreAlias"></value>
+  <value name="transportServerCertsKeyAlias"></value>
+  <value name="messageUser"></value>
+  <value name="messagePass"></value>
+  <value name="messageServerCertsKeystoreAlias"></value>
+  <value name="messageServerCertsKeyAlias"></value>
+</Values>
