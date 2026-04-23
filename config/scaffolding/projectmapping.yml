@@ -8,3 +8,7 @@ runtimes:
     uid: flfada7220a6224086b78c7c9f923b47d4
     stepId: a0
     reference: project.externalproject1.integrations:HttpsConnector
+  - name: fld_131297913_stage00.projects.flede9297a13fc4be58ac383aa0a8410fb.integrations:TestPS
+    type: flow
+    stepId: /0
+    reference: fld_131297913_stage00.projects.flede9297a13fc4be58ac383aa0a8410fb.WmPackageServiceProvider.project.externalproject1.integrations:test_Import
