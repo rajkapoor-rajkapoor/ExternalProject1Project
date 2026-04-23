@@ -52,6 +52,14 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
+- serviceName: project.externalproject1.integrations:SOap_PipelineValidation
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetWeather
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
 - serviceName: project.externalproject1.integrations:Test
   packages:
   - name: ExternalProject1Project
@@ -64,10 +72,6 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetWeather
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
 - serviceName: project.externalproject1.integrations:test_Import
   packages:
   - name: ExternalProject1Project
@@ -77,6 +81,10 @@ services:
   - name: ExternalProject1Project
     version: "1.0"
 - serviceName: project.externalproject1.soap.connections:ValidAccount
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connections:qwerty
   packages:
   - name: ExternalProject1Project
     version: "1.0"
