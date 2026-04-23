@@ -60,11 +60,31 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.832
+- serviceName: project.externalproject1.integrations:test_Import
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
 - serviceName: project.externalproject1.soap.connections:UpdateAccountFromasassasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
   packages:
   - name: ExternalProject1Project
     version: "1.0"
 - serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetCitiesByCountry
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Input
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Output
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.docTypes:GlobalWeatherSoap_GetWeather_Input
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors.TestSOpa_.docTypes:GlobalWeatherSoap_GetWeather_Output
   packages:
   - name: ExternalProject1Project
     version: "1.0"
@@ -77,6 +97,10 @@ services:
   - name: ExternalProject1Project
     version: "1.0"
 - serviceName: project.externalproject1.soap.connectors.TestSOpa_.responseServices:genericFault_Response
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: project.externalproject1.soap.connectors:TestSOpa
   packages:
   - name: ExternalProject1Project
     version: "1.0"
