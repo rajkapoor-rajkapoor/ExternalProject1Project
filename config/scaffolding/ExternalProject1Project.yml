@@ -76,6 +76,10 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
+- serviceName: project.externalproject1.soap.connections:ValidAccount
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
 - serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetCitiesByCountry
   packages:
   - name: ExternalProject1Project
