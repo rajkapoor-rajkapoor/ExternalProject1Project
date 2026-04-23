@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="createdDate">1776927274203</value>
-    <value name="lastModifiedDate">1776927274203</value>
+    <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">1776928874029</value>
     <value name="displayName">test</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -78,11 +77,11 @@
         <value name="appType">soap</value>
         <Boolean name="hasAccount">true</Boolean>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">SoapConnectorFrom Opreration </value>
+          <value name="connectionName">##########</value>
           <value name="connectionType">soap</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.externalproject1.soap.connections:SoapConnectorFrom Opreration </value>
+        <value name="connectionNSName">project.externalproject1.soap.connections:##########</value>
         <value name="connectionType">soap</value>
         <value name="type">soap</value>
         <value name="version">V_12_1</value>
@@ -113,6 +112,7 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
