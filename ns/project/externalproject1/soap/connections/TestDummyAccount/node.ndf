@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">soap</value>
+  <value name="node_nsName">project.externalproject1.soap.connections:TestDummyAccount</value>
+  <value name="node_pkg">ExternalProject1Project</value>
+  <value name="is_public">false</value>
+  <value name="assetId">ExternalProject1Project.project.externalproject1.soap.connections:TestDummyAccount</value>
+  <value name="connectionName">TestDummyAccount</value>
+  <value name="description"></value>
+  <value name="connectorNSName">project.externalproject1.soap.connectors:SOAPCONNECTOR</value>
+  <value name="port">NumberConversionSoap12</value>
+  <value name="url">https://www.dataaccess.com/webservicesserver/NumberConversion.wso</value>
+  <value name="timeout">30000</value>
+  <value name="transportType">Basic</value>
+  <value name="transportUser"></value>
+  <value name="transportPass"></value>
+  <null name="transportServerCertsKeystoreAlias"/>
+  <null name="transportServerCertsKeyAlias"/>
+  <value name="messageUser"></value>
+  <value name="messagePass"></value>
+  <null name="messageServerCertsKeystoreAlias"/>
+  <null name="messageServerCertsKeyAlias"/>
+</Values>
