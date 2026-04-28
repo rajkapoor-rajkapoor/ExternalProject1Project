@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">soap</value>
+  <value name="node_nsName">project.externalproject1.soap.connections:TestSoapConnection</value>
+  <value name="node_pkg">ExternalProject1Project</value>
+  <value name="is_public">false</value>
+  <value name="assetId">ExternalProject1Project.project.externalproject1.soap.connections:TestSoapConnection</value>
+  <value name="connectionName">TestSoapConnection</value>
+  <value name="description"></value>
+  <value name="connectorNSName">project.externalproject1.soap.connectors:TestDeletion</value>
+  <value name="port">GlobalWeatherSoap</value>
+  <value name="url">https://azsiqatest099.cc.az-us.webmethodscloud-preprod.com:443/integration/service/deploypack/IS/ws/WSDL:GlobalWeather/GlobalWeatherSoap</value>
+  <value name="timeout">23455</value>
+  <value name="transportType">Basic</value>
+  <value name="transportUser">cldp</value>
+  <value name="transportPass">project.externalproject1.soap.connections.TestSoapConnection.transportPass</value>
+  <null name="transportServerCertsKeystoreAlias"/>
+  <null name="transportServerCertsKeyAlias"/>
+  <value name="messageUser"></value>
+  <value name="messagePass"></value>
+  <null name="messageServerCertsKeystoreAlias"/>
+  <null name="messageServerCertsKeyAlias"/>
+</Values>
