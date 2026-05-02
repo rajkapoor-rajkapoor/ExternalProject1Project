@@ -9,11 +9,11 @@
   <value name="assetId">ExternalProject1Project.project.externalproject1.http.connections:HttpConnectorTest</value>
   <value name="connectionName">HttpConnectorTest</value>
   <value name="auth">basic</value>
-  <value name="checkCRL">true</value>
+  <value name="checkCRL">false</value>
   <value name="cipherSuites"></value>
   <value name="connectTimeout">300000</value>
   <value name="followRedirect">yes</value>
-  <value name="hostNameVerification">true</value>
+  <value name="hostNameVerification">false</value>
   <value name="keepAliveTimeout">180</value>
   <value name="keyAlias"></value>
   <value name="keystoreAlias"></value>
