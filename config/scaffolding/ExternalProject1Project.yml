@@ -8,6 +8,10 @@ packages:
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
 services:
+- serviceName: project.externalproject1.ftp.connections:tesasas
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
 - serviceName: project.externalproject1.http.connections:tweaas
   packages:
   - name: ExternalProject1Project
