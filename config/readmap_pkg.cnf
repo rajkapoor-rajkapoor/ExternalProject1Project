@@ -1,5 +1,5 @@
 #readAcl for package: ExternalProject1Project
-#Tue Apr 28 09:16:59 GMT 2026
+#Sat May 02 04:37:02 GMT 2026
 project=Internal
 project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetCitiesByCountry_Input=Anonymous
 project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetCitiesByCountry_Output=Anonymous

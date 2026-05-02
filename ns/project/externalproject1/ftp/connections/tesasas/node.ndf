@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">ftpAccount</value>
+  <value name="node_nsName">project.externalproject1.ftp.connections:tesasas</value>
+  <value name="node_pkg">ExternalProject1Project</value>
+  <value name="is_public">false</value>
+  <record name="accountDetails" javaclass="com.wm.util.Values">
+    <null name="agentGroup"/>
+    <value name="agentId">7743ff2d8990439cb1bbf47b99842e7c</value>
+    <value name="connectionName">tesasas</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">ftpconnector</value>
+    <value name="connectorType">ftp</value>
+    <value name="description"></value>
+    <null name="instanceId"/>
+    <value name="password">*****</value>
+    <value name="projectName">ExternalProject1</value>
+    <value name="providerName">TechnologyConnector</value>
+    <value name="securedata">false</value>
+    <value name="serverhost">demo.wftpserver.com</value>
+    <value name="serverport">21</value>
+    <value name="sslconfig">false</value>
+    <value name="timeout">60</value>
+    <value name="username">demo</value>
+    <value name="passwordhandle">wm.is.admin.project.externalproject1.ftp.connections:tesasas</value>
+  </record>
+  <value name="assetId">ExternalProject1Project.project.externalproject1.ftp.connections:tesasas</value>
+</Values>
