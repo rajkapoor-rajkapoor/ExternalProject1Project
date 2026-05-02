@@ -100,6 +100,7 @@
         <value name="field_name">data</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -563,5 +564,9 @@
 <MAP MODE="OUTPUT">
   <COMMENT></COMMENT>
 </MAP>
+</INVOKE>
+
+<INVOKE NAME="Invoke predefined:ftpconnector" TIMEOUT="" SERVICE="pub.client.ftp:ls" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
