@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="node_type">webServiceDescriptor</value>
   <value name="node_subtype">unknown</value>
-  <value name="node_nsName">project.externalproject1.soap.connectors:Custom_SoapCOnnector</value>
+  <value name="node_nsName">project.externalproject1.soap.connectors:aaaaaaaaaaaaaaa</value>
   <value name="node_pkg">ExternalProject1Project</value>
   <value name="is_public">false</value>
   <Boolean name="inbound">false</Boolean>
@@ -15,29 +15,23 @@
   <array name="externalWSDLSources" type="record" depth="1">
     <record javaclass="com.wm.util.Values">
       <value name="contextURI">http://localhost:5555/</value>
-      <value name="locationURI">project.externalproject1.soap.connectors.Custom_SoapCOnnector?wsdl=wsdl0</value>
+      <value name="locationURI">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa?wsdl=wsdl0</value>
       <null name="source"/>
       <number name="type" type="Integer">1</number>
     </record>
-    <record javaclass="com.wm.util.Values">
-      <value name="contextURI">http://localhost:5555/</value>
-      <value name="locationURI">project.externalproject1.soap.connectors.Custom_SoapCOnnector?wsdl=wsdl1</value>
-      <null name="source"/>
-      <number name="type" type="Integer">2</number>
-    </record>
   </array>
-  <value name="externalWSDLURL">TestGlobalWSDL.xml</value>
-  <value name="WSDLURL">http://default-designtime-is-5585d5bcb5-wjn6x:5555/ws/project.externalproject1.soap.connectors:Custom_SoapCOnnector?WSDL</value>
-  <value name="definitionName">Custom_SoapCOnnector</value>
+  <value name="externalWSDLURL">memory://aaaaaaaaaaaaaaa.wsdl</value>
+  <value name="WSDLURL">http://default-designtime-is-5585d5bcb5-wjn6x:5555/ws/project.externalproject1.soap.connectors:aaaaaaaaaaaaaaa?WSDL</value>
+  <value name="definitionName">aaaaaaaaaaaaaaa</value>
   <value name="version">V_12_1</value>
-  <value name="schemaDomain">e01e9eb85d20487ea7395adf7c3a6660</value>
+  <value name="schemaDomain">351a0617cbd04319b115f80da41fb127</value>
   <Boolean name="rawArray">true</Boolean>
   <array name="handlerList" type="record" depth="1">
   </array>
   <array name="binderList" type="record" depth="1">
     <record javaclass="com.wm.util.Values">
       <value name="binderName">GlobalWeatherSoap</value>
-      <value name="portAddress">https://customqaawsus.acmeco.cloud/integration/ws/v2/fl76fc18d154eecf313e7a33/TestGlobalWSDL/GlobalWeatherSoap</value>
+      <value name="portAddress">https://azsiqatest099.cc.az-us.webmethodscloud-preprod.com:443/integration/service/deploypack/IS/ws/WSDL:GlobalWeather/GlobalWeatherSoap</value>
       <value name="bindingName">GlobalWeatherSoap</value>
       <value name="bindingStyle">document</value>
       <value name="bindingUse">literal</value>
@@ -56,7 +50,7 @@
     </record>
     <record javaclass="com.wm.util.Values">
       <value name="binderName">GlobalWeatherSoap12</value>
-      <value name="portAddress">https://customqaawsus.acmeco.cloud/integration/ws/v2/fl76fc18d154eecf313e7a33/TestGlobalWSDL/GlobalWeatherSoap12</value>
+      <value name="portAddress">https://azsiqatest099.cc.az-us.webmethodscloud-preprod.com:443/integration/service/deploypack/IS/ws/WSDL:GlobalWeather/GlobalWeatherSoap12</value>
       <value name="bindingName">GlobalWeatherSoap12</value>
       <value name="bindingStyle">document</value>
       <value name="bindingUse">literal</value>
@@ -77,15 +71,15 @@
   <array name="operationList" type="record" depth="1">
     <record javaclass="com.wm.util.Values">
       <value name="operationName">GetWeather</value>
-      <value name="serviceName">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.connectors:GlobalWeatherSoap_GetWeather</value>
+      <value name="serviceName">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.connectors:GlobalWeatherSoap_GetWeather</value>
       <value name="originalMEPType">MEP_URI_IN_OUT</value>
       <record name="requestElement" javaclass="com.wm.util.Values">
         <array name="headers" type="record" depth="1">
         </array>
         <record name="body" javaclass="com.wm.util.Values">
           <value name="name">http://www.webserviceX.NET:GlobalWeatherSoap_GetWeather_Input</value>
-          <value name="docType">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetWeather_Input</value>
-          <value name="nsOwner">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetWeather_Input</value>
+          <value name="docType">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetWeather_Input</value>
+          <value name="nsOwner">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetWeather_Input</value>
           <number name="nsOwnerType" type="Integer">3</number>
           <Boolean name="addedByClient">false</Boolean>
           <null name="originalDocName"/>
@@ -98,8 +92,8 @@
         </array>
         <record name="body" javaclass="com.wm.util.Values">
           <value name="name">http://www.webserviceX.NET:GlobalWeatherSoap_GetWeather_Output</value>
-          <value name="docType">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetWeather_Output</value>
-          <value name="nsOwner">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetWeather_Output</value>
+          <value name="docType">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetWeather_Output</value>
+          <value name="nsOwner">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetWeather_Output</value>
           <number name="nsOwnerType" type="Integer">3</number>
           <Boolean name="addedByClient">false</Boolean>
           <null name="originalDocName"/>
@@ -110,15 +104,15 @@
     </record>
     <record javaclass="com.wm.util.Values">
       <value name="operationName">GetCitiesByCountry</value>
-      <value name="serviceName">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.connectors:GlobalWeatherSoap_GetCitiesByCountry</value>
+      <value name="serviceName">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.connectors:GlobalWeatherSoap_GetCitiesByCountry</value>
       <value name="originalMEPType">MEP_URI_IN_OUT</value>
       <record name="requestElement" javaclass="com.wm.util.Values">
         <array name="headers" type="record" depth="1">
         </array>
         <record name="body" javaclass="com.wm.util.Values">
           <value name="name">http://www.webserviceX.NET:GlobalWeatherSoap_GetCitiesByCountry_Input</value>
-          <value name="docType">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Input</value>
-          <value name="nsOwner">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Input</value>
+          <value name="docType">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Input</value>
+          <value name="nsOwner">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Input</value>
           <number name="nsOwnerType" type="Integer">3</number>
           <Boolean name="addedByClient">false</Boolean>
           <null name="originalDocName"/>
@@ -131,8 +125,8 @@
         </array>
         <record name="body" javaclass="com.wm.util.Values">
           <value name="name">http://www.webserviceX.NET:GlobalWeatherSoap_GetCitiesByCountry_Output</value>
-          <value name="docType">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Output</value>
-          <value name="nsOwner">project.externalproject1.soap.connectors.Custom_SoapCOnnector_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Output</value>
+          <value name="docType">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Output</value>
+          <value name="nsOwner">project.externalproject1.soap.connectors.aaaaaaaaaaaaaaa_.docTypes:GlobalWeatherSoap_GetCitiesByCountry_Output</value>
           <number name="nsOwnerType" type="Integer">3</number>
           <Boolean name="addedByClient">false</Boolean>
           <null name="originalDocName"/>
@@ -165,7 +159,7 @@
   <Boolean name="generateXOPObjectForBase64Binary">false</Boolean>
   <null name="originURI"/>
   <null name="modifiable"/>
-  <value name="externalServiceName">{http://www.webserviceX.NET}TestGlobalWSDL</value>
+  <value name="externalServiceName">{http://www.webserviceX.NET}WSDL.GlobalWeather</value>
   <array name="policyAttachmentList" type="record" depth="1">
   </array>
   <Boolean name="filterLoginCredentials">false</Boolean>

@@ -21,7 +21,7 @@
     </record>
   </array>
   <value name="externalWSDLURL">TestGlobalWSDL (1).xml</value>
-  <value name="WSDLURL">http://default-designtime-is-6586dc649-fvj8d:5555/ws/project.externalproject1_2b42fa777cff458aac1aeada2d0d0349_export.soap.connectors:TestSOpa?WSDL</value>
+  <value name="WSDLURL">http://default-designtime-is-5585d5bcb5-wjn6x:5555/ws/project.externalproject1.soap.connectors:TestSOpa?WSDL</value>
   <value name="definitionName">TestSOpa</value>
   <value name="version">V_12_1</value>
   <value name="schemaDomain">8cde70037b0e4213862b9d267e90f273</value>
