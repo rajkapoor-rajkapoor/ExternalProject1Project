@@ -8,6 +8,10 @@ packages:
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
 services:
+- serviceName: project.externalproject1.http.connections:tweaas
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
 - serviceName: project.externalproject1.integrations:Copy_test_Import
   packages:
   - name: ExternalProject1Project
@@ -19,7 +23,7 @@ services:
 - serviceName: pub.client:soapClient
   packages:
   - name: WmPublic
-    version: 12.1.0.0.836
+    version: 12.1.0.0.838
 - serviceName: project.externalproject1.integrations:Coy_SoapConnecDAFservice
   packages:
   - name: ExternalProject1Project
@@ -35,7 +39,7 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 12.1.0.0.836
+    version: 12.1.0.0.838
 - serviceName: project.externalproject1.integrations:DAFUsingSMTPWithAttachedFile
   packages:
   - name: ExternalProject1Project
@@ -43,7 +47,7 @@ services:
 - serviceName: pub.client:smtp
   packages:
   - name: WmPublic
-    version: 12.1.0.0.836
+    version: 12.1.0.0.838
 - serviceName: project.externalproject1.integrations:HttpUsingCert
   packages:
   - name: ExternalProject1Project
@@ -51,7 +55,7 @@ services:
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
-    version: 12.1.0.0.836
+    version: 12.1.0.0.838
 - serviceName: project.externalproject1.integrations:HttpsConnector
   packages:
   - name: ExternalProject1Project
@@ -96,14 +100,6 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
-- serviceName: project.externalproject1.soap.connections:TestDummyAccount
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connections:TestSoapConnection
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
 - serviceName: project.externalproject1.soap.connectors.Custom_SoapCOnnector_.connectors:GlobalWeatherSoap_GetCitiesByCountry
   packages:
   - name: ExternalProject1Project
@@ -120,42 +116,6 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.SOAPCONNECTOR_.connectors:NumberConversionSoapType_NumberToDollars
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.SOAPCONNECTOR_.connectors:NumberConversionSoapType_NumberToWords
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.SOAPCONNECTOR_.responseServices:NumberConversionSoapType_NumberToDollars_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.SOAPCONNECTOR_.responseServices:NumberConversionSoapType_NumberToWords_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.SOAPCONNECTOR_.responseServices:genericFault_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.TestDeletion_.connectors:GlobalWeatherSoap_GetWeather
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.TestDeletion_.responseServices:GlobalWeatherSoap_GetCitiesByCountry_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.TestDeletion_.responseServices:GlobalWeatherSoap_GetWeather_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.TestDeletion_.responseServices:genericFault_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
 - serviceName: project.externalproject1.soap.connectors.TestSOpa_.connectors:GlobalWeatherSoap_GetCitiesByCountry
   packages:
   - name: ExternalProject1Project
@@ -169,26 +129,6 @@ services:
   - name: ExternalProject1Project
     version: "1.0"
 - serviceName: project.externalproject1.soap.connectors.TestSOpa_.responseServices:genericFault_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_.connectors:GlobalWeatherSoap_GetCitiesByCountry
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_.connectors:GlobalWeatherSoap_GetWeather
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_.responseServices:GlobalWeatherSoap_GetCitiesByCountry_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_.responseServices:GlobalWeatherSoap_GetWeather_Response
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-- serviceName: project.externalproject1.soap.connectors.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_.responseServices:genericFault_Response
   packages:
   - name: ExternalProject1Project
     version: "1.0"
