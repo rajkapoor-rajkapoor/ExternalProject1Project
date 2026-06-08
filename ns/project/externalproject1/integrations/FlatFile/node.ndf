@@ -44,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="createdDate">1780922496057</value>
-    <value name="lastModifiedDate">1780922496057</value>
+    <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">1780923006145</value>
     <value name="displayName">FlatFile</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -55,12 +54,12 @@
         <value name="itemType">APPS</value>
         <record name="operation" javaclass="com.wm.util.Values">
           <value name="connectorID">ffconnector</value>
-          <value name="description">convertToString</value>
+          <value name="description">convertToValues</value>
           <value name="isCustom">false</value>
           <value name="isDynamicOperation">false</value>
           <value name="isImportedOperation">false</value>
-          <value name="nsName">pub.flatFile:convertToString</value>
-          <value name="operationName">convertToString</value>
+          <value name="nsName">pub.flatFile:convertToValues</value>
+          <value name="operationName">convertToValues</value>
           <value name="operationType">actions</value>
           <null name="packageName"/>
           <value name="projectName">project.externalproject1</value>
@@ -110,6 +109,8 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="outputMapSet"/>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
