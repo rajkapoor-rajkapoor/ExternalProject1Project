@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="lastModifiedDate">1780923083865</value>
+    <value name="lastModifiedDate">1780923119159</value>
     <value name="displayName">FlatFile</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -109,7 +109,15 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <null name="mapSet"/>
+        <array name="mapSet" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="field">/ffSchema;1;0</value>
+            <value name="value"></value>
+            <Boolean name="variableSubstitution">false</Boolean>
+            <Boolean name="overwrite">true</Boolean>
+            <Boolean name="globalVariables">false</Boolean>
+          </record>
+        </array>
         <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">

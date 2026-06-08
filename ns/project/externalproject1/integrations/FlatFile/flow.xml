@@ -273,6 +273,15 @@
 
 <MAPCOPY FROM="/Input;1;0" TO="/ffData;3;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/ffSchema;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml"></value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="OUTPUT">
