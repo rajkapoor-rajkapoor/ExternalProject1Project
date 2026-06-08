@@ -9,13 +9,31 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="field_type">recref</value>
+      <value name="field_type">record</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">Input</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+      </array>
       <value name="modifiable">true</value>
-      <value name="rec_ref">project.externalproject1.documenttypes:TestFFExternalProject_ff</value>
     </record>
     <record name="sig_out" javaclass="com.wm.util.Values">
       <value name="node_type">record</value>
@@ -45,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="lastModifiedDate">1780923006145</value>
+    <value name="lastModifiedDate">1780923083865</value>
     <value name="displayName">FlatFile</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -91,15 +109,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapSet" type="record" depth="1">
-          <record javaclass="com.wm.util.Values">
-            <value name="field">/ffSchema;1;0</value>
-            <value name="value">project.externalproject1.ff.schemas:TestFFExternalProject_schema</value>
-            <Boolean name="variableSubstitution">false</Boolean>
-            <Boolean name="overwrite">true</Boolean>
-            <Boolean name="globalVariables">false</Boolean>
-          </record>
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
@@ -111,6 +121,7 @@
         <null name="outputMapSet"/>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
