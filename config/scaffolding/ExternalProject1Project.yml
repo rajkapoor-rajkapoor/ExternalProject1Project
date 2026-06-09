@@ -8,6 +8,18 @@ packages:
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
 services:
+- serviceName: project.externalproject1.integrations:Copy_DAFIUsingFF
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
+- serviceName: pub.flatFile:convertToValues
+  packages:
+  - name: WmFlatFile
+    version: 10.7.0.0.36
+- serviceName: pub.flatFile:convertToString
+  packages:
+  - name: WmFlatFile
+    version: 10.7.0.0.36
 - serviceName: project.externalproject1.integrations:Copy_test_Import
   packages:
   - name: ExternalProject1Project
@@ -40,14 +52,6 @@ services:
   packages:
   - name: ExternalProject1Project
     version: "1.0"
-- serviceName: pub.flatFile:convertToValues
-  packages:
-  - name: WmFlatFile
-    version: 10.7.0.0.36
-- serviceName: pub.flatFile:convertToString
-  packages:
-  - name: WmFlatFile
-    version: 10.7.0.0.36
 - serviceName: project.externalproject1.integrations:DAFUsingSMTPWithAttachedFile
   packages:
   - name: ExternalProject1Project
@@ -56,6 +60,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.868
+- serviceName: project.externalproject1.integrations:FlatFile
+  packages:
+  - name: ExternalProject1Project
+    version: "1.0"
 - serviceName: project.externalproject1.integrations:HttpUsingCert
   packages:
   - name: ExternalProject1Project
