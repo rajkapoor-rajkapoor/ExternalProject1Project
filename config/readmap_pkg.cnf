@@ -1,13 +1,3 @@
 #readAcl for package: ExternalProject1Project
-#Sat May 02 04:37:02 GMT 2026
+#Thu Jul 30 11:35:06 GMT 2026
 project=Internal
-project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetCitiesByCountry_Input=Anonymous
-project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetCitiesByCountry_Output=Anonymous
-project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetWeather_Input=Anonymous
-project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetWeather_Output=Anonymous
-project.externalproject1.soap.connectors\:TestSOpa=Anonymous
-project.project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetCitiesByCountry_Input=Anonymous
-project.project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetCitiesByCountry_Output=Anonymous
-project.project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetWeather_Input=Anonymous
-project.project.externalproject1.soap.connectors.TestSOpa_.docTypes\:GlobalWeatherSoap_GetWeather_Output=Anonymous
-project.project.externalproject1.soap.connectors\:TestSOpa=Anonymous
