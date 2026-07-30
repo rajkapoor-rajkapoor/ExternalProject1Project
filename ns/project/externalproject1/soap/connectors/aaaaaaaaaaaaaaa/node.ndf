@@ -22,7 +22,7 @@ PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjx3c2RsOmRlZmluaXRpb25zIHRh
     </record>
   </array>
   <value name="externalWSDLURL">memory://aaaaaaaaaaaaaaa.wsdl</value>
-  <value name="WSDLURL">http://default-designtime-is-74698cd-t4cb4:5555/ws/project.externalproject1.soap.connectors:aaaaaaaaaaaaaaa?WSDL</value>
+  <value name="WSDLURL">http://default-designtime-is-f4967bb6-h8gqb:5555/ws/project.externalproject1.soap.connectors:aaaaaaaaaaaaaaa?WSDL</value>
   <value name="definitionName">aaaaaaaaaaaaaaa</value>
   <value name="version">V_12_1</value>
   <value name="schemaDomain">351a0617cbd04319b115f80da41fb127</value>
