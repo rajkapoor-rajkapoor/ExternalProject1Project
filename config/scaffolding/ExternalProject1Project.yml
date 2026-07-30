@@ -174,12 +174,6 @@ services:
     version: "1.0"
   - name: RestAPIUsingPackageService
     version: "1.0"
-- serviceName: project.externalproject1.rad.TestImportRestAPIFromWMIO_.services:path_POST_1
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-  - name: RestAPIUsingPackageService
-    version: "1.0"
 - serviceName: project.externalproject1.soap.connectors.Custom_SoapCOnnector_.connectors:GlobalWeatherSoap_GetCitiesByCountry
   packages:
   - name: ExternalProject1Project
