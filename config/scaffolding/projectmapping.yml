@@ -12,3 +12,10 @@ runtimes:
     type: flow
     stepId: /0
     reference: fld_131297913_stage00.projects.flede9297a13fc4be58ac383aa0a8410fb.WmPackageServiceProvider.project.externalproject1.integrations:test_Import
+- runtimeAlias: Cloud Runtime
+  assets:
+  - name: TestWMIOFromScratch
+    type: REST
+    path: /apth
+    action: POST
+    reference: fld_131724708_stage00.projects.fla6f18e5fbc6044d491add1132272ee21.WmPackageServiceProvider.Rest_Auto:DateDataType
