@@ -6,4 +6,9 @@
     <record name="portMap" javaclass="com.wm.util.Values">
     </record>
   </record>
+  <record name="integration/private/restv2/development/fla6f18e5fbc6044d491add1132272ee21/RestAPI" javaclass="com.wm.util.Values">
+    <value name="urlPath">rad/project.externalproject1.rad:RestAPIImporedFromFile</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
 </Values>
