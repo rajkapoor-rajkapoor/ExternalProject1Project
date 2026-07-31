@@ -150,12 +150,6 @@ services:
     version: "1.0"
   - name: RestAPIUsingPackageService
     version: "1.0"
-- serviceName: project.externalproject1.integrations:TestFF
-  packages:
-  - name: ExternalProject1Project
-    version: "1.0"
-  - name: RestAPIUsingPackageService
-    version: "1.0"
 - serviceName: project.externalproject1.integrations:httpwithCert
   packages:
   - name: ExternalProject1Project
