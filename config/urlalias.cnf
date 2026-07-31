@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="integration/restv2/development/fl76fc18d154eecf313e7a33/TestRestAPI" javaclass="com.wm.util.Values">
+    <value name="urlPath">rad/project.externalproject1.rad:TestRestAPIImportFromFile</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+</Values>

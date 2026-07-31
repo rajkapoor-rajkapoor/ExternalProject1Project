@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">restDescriptor</value>
+  <value name="node_subtype">restv2Descriptor</value>
+  <value name="node_nsName">project.externalproject1.rad:TestRestAPIImportFromFile</value>
+  <value name="node_pkg">ExternalProject1Project</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <record name="revisionData" javaclass="com.wm.util.Values">
+      <value name="createdBy">Rajkapoor .</value>
+      <value name="createdByUserId">d72d678b6e3f4ecfb7c8b285ae2fd830</value>
+      <number name="createdDate" type="Long">1785475672112</number>
+      <value name="lastModifiedBy">Rajkapoor .</value>
+      <value name="lastModifiedByUserId">d72d678b6e3f4ecfb7c8b285ae2fd830</value>
+      <number name="lastModifiedDate" type="Long">1785475672112</number>
+    </record>
+    <value name="fileOrURLName">https://customqaawsus.acmeco.cloud/integration/rest/api/rad/development/fl76fc18d154eecf313e7a33/TestRestAPI/swagger.json</value>
+    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="createdDate">2026-07-31T05:27:52.096085835Z</value>
+    <value name="modifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">2026-07-31T05:27:52.124954234Z</value>
+  </record>
+  <value name="is_public">true</value>
+  <value name="sourceUri">https://customqaawsus.acmeco.cloud/integration/rest/api/rad/development/fl76fc18d154eecf313e7a33/TestRestAPI/swagger.json</value>
+  <value name="swaggerUrl">https://customqaawsus.acmeco.cloud/integration/rest/api/rad/development/fl76fc18d154eecf313e7a33/TestRestAPI/swagger.json</value>
+  <Boolean name="modifiable">false</Boolean>
+  <record name="securityDefinitions" javaclass="com.wm.util.Values">
+    <record name="_basicAuth" javaclass="com.wm.util.Values">
+      <value name="type">basic</value>
+      <value name="name">_basicAuth</value>
+      <null name="description"/>
+    </record>
+  </record>
+  <record name="restTags" javaclass="com.wm.util.Values">
+  </record>
+  <record name="generalInfo" javaclass="com.wm.util.Values">
+    <value name="specVersion">2.0</value>
+    <value name="hostName">default-designtime-is-f4967bb6-cgnmd:5555</value>
+    <value name="basePath">/integration/restv2/development/fl76fc18d154eecf313e7a33/TestRestAPI</value>
+    <array name="schemes" type="value" depth="1">
+      <value>https</value>
+    </array>
+    <array name="consumes" type="value" depth="1">
+      <value>application/json</value>
+    </array>
+    <array name="produces" type="value" depth="1">
+      <value>application/json</value>
+    </array>
+  </record>
+  <record name="appInfo" javaclass="com.wm.util.Values">
+    <value name="appVersion">2.0</value>
+    <value name="title">TestRestAPI</value>
+    <null name="termsOfService"/>
+    <record name="contact" javaclass="com.wm.util.Values">
+      <null name="contactName"/>
+      <null name="contactUrl"/>
+      <null name="contactEmail"/>
+    </record>
+    <record name="license" javaclass="com.wm.util.Values">
+      <null name="licenseName"/>
+      <null name="licenseUrl"/>
+    </record>
+  </record>
+  <record name="restDefinitions" javaclass="com.wm.util.Values">
+  </record>
+  <Boolean name="legacyStructure">false</Boolean>
+  <record name="restResources" javaclass="com.wm.util.Values">
+    <record name="/DAFPath" javaclass="com.wm.util.Values">
+      <value name="nsName">project.externalproject1.rad.TestRestAPIImportFromFile_.resources:DAFPath</value>
+      <value name="path">/DAFPath</value>
+      <null name="suffix"/>
+      <record name="operations" javaclass="com.wm.util.Values">
+        <record name="POST" javaclass="com.wm.util.Values">
+          <value name="operationType">POST</value>
+          <value name="nsName">project.externalproject1.rad.TestRestAPIImportFromFile_.services:DAFPath_POST_1</value>
+          <record name="responses" javaclass="com.wm.util.Values">
+            <record name="200" javaclass="com.wm.util.Values">
+              <value name="statusCode">200</value>
+              <value name="description">OK</value>
+              <Boolean name="returnOutput">true</Boolean>
+            </record>
+            <record name="401" javaclass="com.wm.util.Values">
+              <value name="statusCode">401</value>
+              <value name="description">Access Denied</value>
+              <Boolean name="returnOutput">false</Boolean>
+            </record>
+          </record>
+          <record name="security" javaclass="com.wm.util.Values">
+            <array name="securityMap" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="name">_basicAuth</value>
+              </record>
+            </array>
+          </record>
+        </record>
+      </record>
+    </record>
+  </record>
+  <Boolean name="matchRequestResponsePayloadWithRad">true</Boolean>
+  <Boolean name="convertToDefinedType">true</Boolean>
+  <value name="radSource">swagger</value>
+  <value name="radVersion">3.0</value>
+  <array name="generatedDoctypes" type="record" depth="1">
+  </array>
+  <array name="generatedServices" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">/DAFPath_POST</value>
+      <value name="nsName">project.externalproject1.rad.TestRestAPIImportFromFile_.services:DAFPath_POST_1</value>
+    </record>
+  </array>
+  <array name="generatedRestResources" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">/DAFPath</value>
+      <value name="nsName">project.externalproject1.rad.TestRestAPIImportFromFile_.resources:DAFPath</value>
+    </record>
+  </array>
+  <Boolean name="addRootElementToResponse">true</Boolean>
+</Values>
