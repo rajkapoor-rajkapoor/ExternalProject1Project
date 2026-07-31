@@ -33,3 +33,8 @@ runtimes:
     path: /DAF
     action: POST
     reference: fld_131724708_stage00.projects.fla6f18e5fbc6044d491add1132272ee21.WmPackageServiceProvider.project.externalproject1.integrations:FlatFile
+  - name: RestAPI
+    type: REST
+    path: /packageservice
+    action: POST
+    reference: fld_131724708_stage00.projects.fla6f18e5fbc6044d491add1132272ee21.WmPackageServiceProvider.Rest_Auto:BooleanType
