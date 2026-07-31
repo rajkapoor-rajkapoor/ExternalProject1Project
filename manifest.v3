@@ -4,7 +4,7 @@
   <value name="enabled">yes</value>
   <value name="lazy_load">yes</value>
   <value name="system_package">no</value>
-  <value name="version">1.0</value>
+  <value name="version">2.0.0</value>
   <value name="name">ExternalProject1Project</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
@@ -16,13 +16,13 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">145</value>
+  <value name="build">146</value>
   <null name="description"/>
   <value name="created_date">25-03-2026 19:10:50 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-07-31T05:49:24.648882761Z</value>
+  <value name="lastUpdated">2026-07-31T06:06:07.036138239Z</value>
   <value name="wmProjectId">flce3f05d15af449e4b0f1880389a2a408</value>
   <value name="creator">Rajkapoor .</value>
 </Values>
