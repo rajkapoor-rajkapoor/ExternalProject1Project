@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Connector-Key: project.externalproject1.ExternalProject1Project.TestRest
+ API
+Connector-Name: TestRestAPI
+Connector-Version: 1.0
+Connector-Handler: com.webmethods.cloudstreams.metadata.handler.rest.Res
+ tConnectorMetadataHandler
+Connector-State: Enabled
+Connector-Bundle-Vendor: IBM
+Connector-Bundle-Version: 1.0
+Connector-Group-ID: project.externalproject1.ExternalProject1Project.Tes
+ tRestAPI
+Connector-Group-Version: 1.0
+Project: 
+
+Name: User-Defined
+Application-Version: 2.0
+applicationImageID: 
+

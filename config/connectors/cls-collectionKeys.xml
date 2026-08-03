@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:dAFGET1" connectorServiceName="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:dAFGET1"/>
+            <keyDetails collectionKey="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:dAFPOST1" connectorServiceName="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:dAFPOST1"/>
+            <keyDetails collectionKey="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:dAFPUT1" connectorServiceName="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:dAFPUT1"/>
+            <keyDetails collectionKey="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:pSPOST3" connectorServiceName="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:pSPOST3"/>
+            <keyDetails collectionKey="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:packageservicePOST2" connectorServiceName="project.externalproject1.ExternalProject1Project.project_externalproject1_ExternalProject1Project_TestRestAPI.operations.actions:packageservicePOST2"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
