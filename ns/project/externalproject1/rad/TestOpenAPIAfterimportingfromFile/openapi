@@ -1,0 +1,37 @@
+openapi: 3.0.1
+info:
+  title: OpenAPITest
+  version: "2.0"
+servers:
+- url: https://localhost/
+paths:
+  /path:
+    post:
+      operationId: path_POST_1
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Input
+              type: object
+              properties:
+                Input:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content: {}
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _apiKeyAuth: []
+components:
+  securitySchemes:
+    _apiKeyAuth:
+      type: apiKey
+      name: X-INSTANCE-API-KEY
+      in: header
+x-original-swagger-version: "2.0"
