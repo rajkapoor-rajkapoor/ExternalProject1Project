@@ -11,4 +11,9 @@
     <record name="portMap" javaclass="com.wm.util.Values">
     </record>
   </record>
+  <record name="rad/TestRestAPI:TestRestAPIDescriptor" javaclass="com.wm.util.Values">
+    <value name="urlPath">rad/project.externalproject1.rad:TestImportingDDA</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
 </Values>
