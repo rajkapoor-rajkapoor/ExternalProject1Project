@@ -1,0 +1,391 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "version": "1.0",
+    "title": "TestRestAPI:TestRestAPIDescriptor"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5555/rad/TestRestAPI:TestRestAPIDescriptor"
+    },
+    {
+      "url": "https://localhost:5555/rad/TestRestAPI:TestRestAPIDescriptor"
+    }
+  ],
+  "paths": {
+    "/Test_restResource": {
+      "get": {
+        "operationId": "Test_restResource_GET_1",
+        "parameters": [],
+        "security": [
+          {
+            "_apiKeyAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test_restResource_GET_response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Access Denied",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test_restResource_GET_response"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "operationId": "Test_restResource_POST_1",
+        "security": [
+          {
+            "_apiKeyAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test_restResource"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test_restResource_POST_response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Access Denied"
+          }
+        }
+      }
+    },
+    "/Test_restResource/{id}": {
+      "get": {
+        "operationId": "Test_restResourceid_GET_2",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "_apiKeyAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test_restResourceid_GET_response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Access Denied"
+          }
+        }
+      },
+      "delete": {
+        "operationId": "Test_restResourceid_DELETE_2",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "_apiKeyAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test_restResourceid_DELETE_response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Access Denied"
+          }
+        }
+      },
+      "patch": {
+        "operationId": "Test_restResourceid_PATCH_2",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "_apiKeyAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test_restResource"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Test_restResourceid_PATCH_response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Access Denied"
+          }
+        }
+      }
+    },
+    "/local": {
+      "get": {
+        "operationId": "local_GET_3",
+        "security": [
+          {
+            "_apiKeyAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Test_restResource"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/local_GET_response"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Access Denied"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "_apiKeyAuth": {
+        "type": "apiKey",
+        "name": "X-INSTANCE-API-KEY",
+        "in": "header"
+      }
+    },
+    "schemas": {
+      "Test_restResource": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {
+            "type": "string"
+          }
+        }
+      },
+      "errorTemplate": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "links": {
+            "$ref": "#/components/schemas/links"
+          },
+          "status": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "source": {
+            "$ref": "#/components/schemas/source"
+          },
+          "meta": {
+            "type": "string",
+            "format": "binary"
+          }
+        }
+      },
+      "source": {
+        "type": "object",
+        "properties": {
+          "pointer": {
+            "type": "string"
+          },
+          "parameter": {
+            "type": "string"
+          }
+        }
+      },
+      "links": {
+        "type": "object",
+        "properties": {
+          "about": {
+            "type": "string"
+          }
+        }
+      },
+      "Test_restResource_GET_response": {
+        "type": "object",
+        "required": ["errors", "output"],
+        "properties": {
+          "output": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Test_restResource"
+            }
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/errorTemplate"
+            }
+          }
+        }
+      },
+      "Test_restResourceid_GET_response": {
+        "type": "object",
+        "required": ["errors", "output"],
+        "properties": {
+          "output": {
+            "$ref": "#/components/schemas/Test_restResource"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/errorTemplate"
+            }
+          }
+        }
+      },
+      "Test_restResource_POST_response": {
+        "type": "object",
+        "required": ["errors", "output"],
+        "properties": {
+          "output": {
+            "$ref": "#/components/schemas/Test_restResource"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/errorTemplate"
+            }
+          }
+        }
+      },
+      "Test_restResourceid_DELETE_response": {
+        "type": "object",
+        "required": ["errors", "output"],
+        "properties": {
+          "output": {
+            "$ref": "#/components/schemas/Test_restResource"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/errorTemplate"
+            }
+          }
+        }
+      },
+      "Test_restResourceid_PATCH_response": {
+        "type": "object",
+        "required": ["errors", "output"],
+        "properties": {
+          "output": {
+            "$ref": "#/components/schemas/Test_restResource"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/errorTemplate"
+            }
+          }
+        }
+      },
+      "local_GET_response": {
+        "type": "object",
+        "required": ["errors", "output"],
+        "properties": {
+          "output": {
+            "$ref": "#/components/schemas/Test_restResource"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/errorTemplate"
+            }
+          }
+        }
+      }
+    }
+  }
+}
