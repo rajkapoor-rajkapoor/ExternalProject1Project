@@ -5,6 +5,8 @@ runtimes:
   assets:
   - name: RestAPIClientIngress
     type: DAF
+  - name: RestAPIWithPrivateClient
+    type: DAF
 - runtimeAlias: Cloud Designtime
   assets:
   - name: Test
