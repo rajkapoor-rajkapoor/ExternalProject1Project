@@ -6,6 +6,12 @@
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">project.externalproject1.rad.RestAPItoDelete_.resources.RestAPItoDelete_resource_.docTypes:RestAPItoDelete_resource</value>
     <value name="node_pkg">ExternalProject1Project</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
+      <value name="createdDate">2026-08-06T11:25:49.634431578Z</value>
+      <value name="modifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+      <value name="lastModifiedDate">2026-08-06T11:26:09.905293453Z</value>
+    </record>
     <value name="is_public">false</value>
     <value name="field_name">RestAPItoDelete_resource</value>
     <value name="field_type">record</value>
@@ -16,11 +22,6 @@
     <array name="rec_fields" type="record" depth="1">
     </array>
     <value name="modifiable">false</value>
-    <record name="node_hints" javaclass="com.wm.util.Values">
-      <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-      <value name="createdDate">2026-08-06T11:25:49.634431578Z</value>
-      <value name="modifiedBy">RajKapoor.RajKapoor@ibm.com</value>
-      <value name="lastModifiedDate">2026-08-06T11:25:49.634431578Z</value>
-    </record>
+    <value name="updateRSD">true</value>
   </record>
 </Values>
