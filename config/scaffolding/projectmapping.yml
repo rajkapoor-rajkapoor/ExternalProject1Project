@@ -1,6 +1,10 @@
 version: "1.0"
 projectName: ExternalProject1Project
 runtimes:
+- runtimeAlias: IC_restAPIValidation
+  assets:
+  - name: RestAPIClientIngress
+    type: DAF
 - runtimeAlias: Cloud Designtime
   assets:
   - name: Test
@@ -19,8 +23,6 @@ runtimes:
     reference: fld_131724708_stage00.projects.fla6f18e5fbc6044d491add1132272ee21.WmPackageServiceProvider.project.externalproject1.integrations:SOapUsingWF
 - runtimeAlias: IC_RajkapoorRestAPI
   assets:
-  - name: RestAPIClientIngress
-    type: DAF
   - name: RestAPI
     type: REST
     path: /DAF
